@@ -1,0 +1,14 @@
+#Production profile for Realsecure
+#First version
+spring:
+  application:
+    name: Realsecure store
+  profiles:
+    active: prod
+  
+  
+welcome:
+  message: Hello from prod
+  
+server:
+  port: 8081

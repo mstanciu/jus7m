@@ -1,0 +1,13 @@
+#Spring boot configuration for dev profile
+#First version
+spring:
+  application:
+    name: Realsecure store
+  profiles:
+    active: dev
+
+welcome:
+  message: Hello from dev
+  
+server:
+  port: 8080
